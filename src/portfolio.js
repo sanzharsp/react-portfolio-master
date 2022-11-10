@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Sanzhar Sapar",
+  title: "<Sanzhar Sapar/>",
   logo_name: "SanzharSapar",
   nickname: "simple_sanzhar",
   subTitle:
