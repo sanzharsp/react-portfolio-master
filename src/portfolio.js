@@ -21,7 +21,7 @@ const seo = {
 const greeting = {
   title: "Sanzhar Sapar",
   logo_name: "SanzharSapar",
-  nickname: "layman_brother",
+  nickname: "simple_sanzhar",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
