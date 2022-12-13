@@ -90,33 +90,29 @@ const skills = {
       title: "Python Developer",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Development of own web applications both through templates and through API",
+        "⚡ Working with databases such as Ms SQL, Postgresql, MySql and so on",
+        "⚡ Integration with the frontend and api documentation via Swagger and Redoc",
       ],
       softwareSkills: [
+       
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Django and Django-rest-framework",
+          fontAwesomeClassname: "logos-django",
           style: {
             backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Postman testing for API",
+          fontAwesomeClassname: "logos-postman",
           style: {
             backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
+        
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
@@ -133,7 +129,7 @@ const skills = {
       skills: [
         "⚡ Building responsive website front end using React-Redux",
         "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Creating application backend in Django rest framework",
       ],
       softwareSkills: [
         {
@@ -150,13 +146,7 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
+       
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -187,13 +177,7 @@ const skills = {
             color: "#2C8EBB",
           },
         },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
+       
         {
           skillName: "Django and Django rest framework",
           fontAwesomeClassname: "simple-icons:django",
@@ -209,24 +193,11 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
+        
+        
         {
           skillName: "Azure",
           fontAwesomeClassname: "simple-icons:microsoftazure",
@@ -262,13 +233,7 @@ const skills = {
             color: "#1488C6",
           },
         },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
+       
       ],
     },
     {
@@ -280,13 +245,7 @@ const skills = {
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
+        
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -295,19 +254,13 @@ const skills = {
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
           style: {
             color: "#FF7C00",
           },
         },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
+        
       ],
     },
   ],
@@ -316,46 +269,8 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+
+   
   ],
 };
 
@@ -382,15 +297,7 @@ const degrees = {
 const certifications = {
   certifications: [
  
-    {
-      title: "Fullstack Development",
-      subtitle: "- Frilance",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
+   
    
   ],
 };
@@ -466,38 +373,11 @@ const projectsHeader = {
 };
 
 const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
+  
 };
 
 const publications = {
   data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "React",
-      createdAt: "2022-11-06 23:36",
-      description: "React ",
-      url:
-        "https://kaznews.vercel.app/post/5",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Django Rest Framework ",
-      createdAt: "2022-11-07 21:08",
-      description: "Django Rest Framework ",
-      url:
-        "https://kaznews.vercel.app/post/6",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Нейронная сеть",
-      createdAt: "2022-11-04 13:20",
-      description: "Нейронная сеть",
-      url:
-        "https://kaznews.vercel.app/post/3",
-    },
     
   ],
 };
