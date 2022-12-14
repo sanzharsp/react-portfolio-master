@@ -31,14 +31,7 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+
 
   {
     name: "Github",
@@ -52,30 +45,7 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "YouTube",
-    link: "#",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
-    name: "Gmail",
-    link: "sanzharsapar1@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
-  {
-    name: "Twitter",
-    link: "#",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
-    name: "Facebook",
-    link: "#",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
+
   {
     name: "Instagram",
     link: "https://www.instagram.com/simple_sanzhar/",
@@ -99,6 +69,46 @@ const skills = {
         {
           skillName: "Django and Django-rest-framework",
           fontAwesomeClassname: "logos-django",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Celery",
+          fontAwesomeClassname: "logo-celery",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "logos-redis",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Nginx",
+          fontAwesomeClassname: "logos-nginx",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Apache",
+          fontAwesomeClassname: "logos-apache",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos-docker",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -137,6 +147,14 @@ const skills = {
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "logos-docker",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
         {
@@ -205,11 +223,29 @@ const skills = {
             color: "#0089D6",
           },
         },
+   
         {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Redis",
+          fontAwesomeClassname: "logos-redis",
           style: {
-            color: "#FFCA28",
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Nginx",
+          fontAwesomeClassname: "logos-nginx",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Apache",
+          fontAwesomeClassname: "logos-apache",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
           },
         },
         {
